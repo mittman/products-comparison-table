@@ -88,20 +88,20 @@ jQuery(document).ready(function($) {
 
             colorize();
 
-            $.getScript("../js/main.js", function() {
+            $.getScript("js/main.js", function() {
                console.log("Load compare script");
             });
         });
     }
 
-    var failsafe = "../models.json";
+    var failsafe = "models.json";
     var urlhash = (window.location.search).substring(1).split("=")[1];
 
     if (typeof urlhash === "undefined") {
         parseJSON(failsafe);
     }
     else {
-        filename = "../" + urlhash + ".json";
+        filename = urlhash + ".json";
         console.log("Loading", filename);
 
         $.get(filename)
