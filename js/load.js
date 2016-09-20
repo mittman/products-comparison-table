@@ -94,14 +94,14 @@ jQuery(document).ready(function($) {
         });
     }
 
-    var failsafe = "../models.json";
+    var failsafe = "models.json";
     var urlhash = (window.location.search).substring(1).split("=")[1];
 
     if (typeof urlhash === "undefined") {
         parseJSON(failsafe);
     }
     else {
-        filename = "../" + urlhash + ".json";
+        filename = urlhash + ".json";
         console.log("Loading", filename);
 
         $.get(filename)
