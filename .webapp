@@ -1,0 +1,5 @@
+html=('index.html')
+css=('css/style.css')
+js=('js/load.js')
+json=('models.json')
+list="jshint jsonlint tidy whitespace"
