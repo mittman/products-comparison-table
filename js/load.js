@@ -88,7 +88,7 @@ jQuery(document).ready(function($) {
 
             colorize();
 
-            $.getScript("../js/main.js", function() {
+            $.getScript("js/main.js", function() {
                console.log("Load compare script");
             });
         });
