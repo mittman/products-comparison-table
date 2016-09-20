@@ -1,4 +1,36 @@
 jQuery(document).ready(function($) {
+    function colorize() {
+        $('[class*="product_"]').on({
+            click: function () {
+                row = $(this).attr('class').replace(/^/,'.');
+                $(this).removeClass("pinned");
+                $(row).addClass("pinned");
+            },
+            mouseenter: function () {
+                row = $(this).attr('class').replace(/^/,'.');
+                $(row).css('background-color', '#4A89FF');
+            },
+            mouseleave: function () {
+                row = $(this).attr('class').replace(/^/,'.');
+                $(row).css('background-color', '');
+            }
+        });
+
+        $('[class*="column_"]').on({
+            mouseenter: function () {
+                column = $(this).closest('.product');
+                $(column).css('background-color', '#AA89FF');
+            },
+            mouseleave: function () {
+                column = $(this).closest('.product');
+                $(column).css('background-color', '');
+            }
+        });
+
+        $(".true").html("");
+        $(".false").html("");
+        $(".null").html("");
+    }
 
     function parseJSON(filename) {
         $.getJSON(filename, function(json) {
@@ -53,6 +85,8 @@ jQuery(document).ready(function($) {
                 //console.log(product)
                 $(".cd-products-columns").append(product);
             });
+
+            colorize();
 
             $.getScript("../js/main.js", function() {
                console.log("Load compare script");
