@@ -1,10 +1,5 @@
 Products Comparison Table
 =========
-
-A responsive table to compare and filter through multiple products.
-
-[Article on CodyHouse](https://codyhouse.co/gem/products-comparison-table/)
-
-[Demo](https://codyhouse.co/demo/products-comparison-table/index.html)
+![screenshot](smartphones.png)
+[Demo](https://mittman.github.io/products-comparison-table/)
  
-[Terms](https://codyhouse.co/terms/)
