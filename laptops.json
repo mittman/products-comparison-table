@@ -211,8 +211,8 @@
       "expandable": true,
       "sd slot": false,
       "keyboard": "chiclet, color backlit",
-      "touchpad": "X",
-      "webcam": "X",
+      "touchpad": "clickpad",
+      "webcam": "2MP, 720p",
       "video out": "Thunderbolt 3, HDMI",
       "usb": 2,
       "usb-c": 1,
@@ -220,7 +220,7 @@
       "optical drive": false,
       "dock": "null",
       "linux": true,
-      "special": "external GPU enclosure, color backlit keys"
+      "special": "external GPU enclosure"
     },
     {
       "id": 10,
