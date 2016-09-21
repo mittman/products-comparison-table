@@ -1,5 +1,8 @@
 Products Comparison Table
 =========
-[Demo 1](https://mittman.github.io/products-comparison-table/)
-[Demo 2](https://mittman.github.io/products-comparison-table/?p=monitors)
+* [Smartphones Demo](https://mittman.github.io/products-comparison-table/?p=smartphones)
+* [Laptops Demo](https://mittman.github.io/products-comparison-table/?p=laptops)
+* [Monitors Demo](https://mittman.github.io/products-comparison-table/?p=monitors)
+
+Screenshot
 ![screenshot](smartphones.png) 
