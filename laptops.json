@@ -151,7 +151,7 @@
     {
       "id": 4,
       "name": "Dell XPS 13",
-      "image": "img/product.png",
+      "image": "img/dell-xps13.png",
       "year": 2016,
       "price": "null",
       "size": "13.3 inch",
@@ -188,7 +188,7 @@
     {
       "id": 5,
       "name": "Razer Blade Stealth",
-      "image": "img/product.png",
+      "image": "img/razer-stealth.png",
       "year": 2016,
       "price": "$1000",
       "size": "12.5 inch",
