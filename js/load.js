@@ -38,6 +38,7 @@ jQuery(document).ready(function($) {
             for (var object in json) break;
             $(document).attr("title", object + " :: compare");
             $(".header").text(object);
+            $(".count").text("Compare " + json[object].length + " Models");
 
             property = Object.keys(json[object][0]);
             //console.log(property)
