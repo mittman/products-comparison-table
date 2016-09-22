@@ -27,6 +27,13 @@ jQuery(document).ready(function($) {
             }
         });
 
+        $(".star").each(function() {
+            console.log(this);
+            rating = $(this).text();
+            $(this).html("");
+            $(this).raty({ starType: 'i', readOnly: true, score: rating });
+        });
+
         $(".true").html("");
         $(".false").html("");
         $(".null").html("");
@@ -66,8 +73,10 @@ jQuery(document).ready(function($) {
 
                 $.each(property, $.proxy(function(index, item) {
                     value = this[item];
-
-                    if (value.toString().toLowerCase() === "false") {
+                    if (/^\d(\.(0|5))?\/5$/.test(value)) {
+                        product = product + '\n\t\t<li class="product_' + item.replace(" ", "-") + ' regex"><div class="star">' + this[item] + '</div></li>';
+                    }
+                    else if (value.toString().toLowerCase() === "false") {
                         product = product + '\n\t\t<li class="product_' + item.replace(" ", "-") + ' false">' + this[item] + '</li>';
                     }
                     else if (value.toString().toLowerCase() === "true") {
