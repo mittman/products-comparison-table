@@ -16,7 +16,7 @@
       "resolution": "2k @ 30fps",
       "usb-data": false,
       "wifi": true,
-      "hdmi": false
+      "hdmi": false,
       "tripod-mount": true,
       "battery": 1200,
       "removable": false,
