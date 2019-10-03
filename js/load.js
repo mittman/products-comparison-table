@@ -119,7 +119,7 @@ jQuery(document).ready(function($) {
                 parseJSON(filename);
             })
             .fail(function() {
-                parseJSON(failsafe);
+                console.log("parseJSON(failsafe)", failsafe);
             }
         );
     }
