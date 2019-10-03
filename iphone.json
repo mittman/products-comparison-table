@@ -1,5 +1,5 @@
 {
-  "iphones": [
+  "iphone": [
     {
       "id": 0,
       "name": "iPhone 6",
@@ -82,7 +82,7 @@
       "selfie": "7MP, 1080p video",
       "ports": "Lightning",
       "carrier": "2 versions",
-      "special": "none"
+      "special": "?"
     },
     {
       "id": 3,
