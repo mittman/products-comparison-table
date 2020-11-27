@@ -251,6 +251,34 @@
       "ports": "Lightning",
       "carrier": "1 versions",
       "special": "camera"
+    },
+    {
+      "id": 9,
+      "name": "iPhone SE2",
+      "image": "img/iphoneSE2.png",
+      "year": 2020,
+      "price": "$450 / $550",
+      "storage": "128GB / 256GB",
+      "sd slot": false,
+      "size": "4.7 inch",
+      "display": "LCD",
+      "resolution": "720p (326ppi)",
+      "battery": 1821,
+      "removable": false,
+      "cpu": "A13 Bionic",
+      "ram": "3GB",
+      "weight": 148,
+      "unlockable": false,
+      "fingerprint": true,
+      "fast charge": true,
+      "wireless charge": true,
+      "headphones": false,
+      "water resistant": true,
+      "camera": "12MP, 4k video",
+      "selfie": "7MP, 1080p video",
+      "ports": "Lightning",
+      "carrier": "1 versions",
+      "special": "Home button"
     }
   ]
 }
